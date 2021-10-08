@@ -1,6 +1,611 @@
 {
-  "intents": [],
-  "entities": [],
+  "intents": [
+    {
+      "intent": "Akatsuki",
+      "examples": [
+        {
+          "text": "Akatsuki?"
+        },
+        {
+          "text": "O que era a Akatsuki?"
+        },
+        {
+          "text": "Quem eram os membros da Akatsuki?"
+        },
+        {
+          "text": "Quem era o líder da akatsuki?"
+        },
+        {
+          "text": "Quem fazia parte da akatsuki?"
+        },
+        {
+          "text": "Quem liderava a akatsuki?"
+        },
+        {
+          "text": "Quem participava da organização akatsuki?"
+        }
+      ],
+      "description": "Descreve sucintamente quem eram os membros da Akatsuki."
+    },
+    {
+      "intent": "bye_Naruto",
+      "examples": [
+        {
+          "text": "acho q ja sei o suficiente, obrigada"
+        },
+        {
+          "text": "Acho que já foi o suficiente, obg."
+        },
+        {
+          "text": "adeus"
+        },
+        {
+          "text": "ate a proxima"
+        },
+        {
+          "text": "ate logo"
+        },
+        {
+          "text": "ate mais"
+        },
+        {
+          "text": "beijinhos ate mais"
+        },
+        {
+          "text": "bjus tchau"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "inté"
+        },
+        {
+          "text": "ja sei ate demais, foi legal obg"
+        },
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "tchau obrigado"
+        },
+        {
+          "text": "tchau tchau, ate mais"
+        },
+        {
+          "text": "valeu flw"
+        }
+      ],
+      "description": "hora de dar tchau"
+    },
+    {
+      "intent": "Cla_Uzumaki",
+      "examples": [
+        {
+          "text": "Qual o nome do seu clã?"
+        },
+        {
+          "text": "Qual seu clã?"
+        },
+        {
+          "text": "Que clã é o seu?"
+        },
+        {
+          "text": "Vc pertence a algum clã?"
+        },
+        {
+          "text": "Você é de qual clã?"
+        }
+      ],
+      "description": "descrição de clã "
+    },
+    {
+      "intent": "Familia",
+      "examples": [
+        {
+          "text": "Descreve a família do Naruto."
+        },
+        {
+          "text": "e seus pais?"
+        },
+        {
+          "text": "qual a sua familia?"
+        },
+        {
+          "text": "quem sao seus pais?"
+        },
+        {
+          "text": "seus pais estao vivos?"
+        },
+        {
+          "text": "voce tem pai?"
+        }
+      ]
+    },
+    {
+      "intent": "Folha",
+      "examples": [
+        {
+          "text": "Konoha é o que?"
+        },
+        {
+          "text": "Konoha? Que é isso?"
+        },
+        {
+          "text": "Onde é Konoha?"
+        },
+        {
+          "text": "O que é Konoha?"
+        },
+        {
+          "text": "Qual o significado de Konoha?"
+        }
+      ],
+      "description": "sobre konoha"
+    },
+    {
+      "intent": "Forca_Shinobi",
+      "examples": [
+        {
+          "text": "Quais clãs participaram das forças aliadas shinobi?"
+        },
+        {
+          "text": "Quais os membros das forças aliadas shinobi?"
+        },
+        {
+          "text": "Quais são as forças shinobi?"
+        },
+        {
+          "text": "Quais vilas se aliaram para a quarta grande guerra?"
+        },
+        {
+          "text": "Quem são as forças shinobi?"
+        },
+        {
+          "text": "Quem são os ninjas da força shinobi?"
+        }
+      ],
+      "description": "Fala sobre os ninjas das forças aliadas shinobi"
+    },
+    {
+      "intent": "Hinata_chan",
+      "examples": [
+        {
+          "text": "Hinata?"
+        },
+        {
+          "text": "Hinata-chan?"
+        },
+        {
+          "text": "me fale sobre a Hinata."
+        },
+        {
+          "text": "qual sua relação com a Hinata?"
+        },
+        {
+          "text": "Quem é a Hinata?"
+        },
+        {
+          "text": "quem foi Hinata?"
+        }
+      ],
+      "description": "fala sucintamente sobre Hinata"
+    },
+    {
+      "intent": "hokage",
+      "examples": [
+        {
+          "text": "Como é ser Hokage?"
+        },
+        {
+          "text": "Hokage?"
+        },
+        {
+          "text": "O que é ser Hokage?"
+        },
+        {
+          "text": "O que é um Hokage?"
+        },
+        {
+          "text": "O que significa ser Hokage?"
+        },
+        {
+          "text": "Porque você quer ser hokage?"
+        },
+        {
+          "text": "qual o significado de Hokage?"
+        },
+        {
+          "text": "vc vai ser hokage?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Itachi_Uchiha",
+      "examples": [
+        {
+          "text": "itachi?"
+        },
+        {
+          "text": "O que aconteceu com o itachi?"
+        },
+        {
+          "text": "Porque o Itachi assassinou seu clã?"
+        },
+        {
+          "text": "quem é Itachi?"
+        },
+        {
+          "text": "quem é o tio Itachi?"
+        },
+        {
+          "text": "Quem foi Itachi Uchiha?"
+        },
+        {
+          "text": "Quem foi o irmão do Sasuke?"
+        },
+        {
+          "text": "Você conheceu o itachi?"
+        }
+      ],
+      "description": "fala sobre o itachi"
+    },
+    {
+      "intent": "Jiraya_Sensei",
+      "examples": [
+        {
+          "text": "Jiraya Sensei?"
+        },
+        {
+          "text": "Quem é Ero sennin?"
+        },
+        {
+          "text": "Quem é Jiraya sensei?"
+        }
+      ],
+      "description": "fala sobre o mestre Jiraya e Naruto"
+    },
+    {
+      "intent": "Jutsus_Naruto",
+      "examples": [
+        {
+          "text": "me conte sobre seus jutsus."
+        },
+        {
+          "text": "Quais jutsus você sabe fazer ?"
+        },
+        {
+          "text": "qual seu jutsu favorito?"
+        },
+        {
+          "text": "Qual seu Jutsu mais poderoso?"
+        },
+        {
+          "text": "Que jutsu vc aprendeu primeiro?"
+        }
+      ],
+      "description": "fala sobre os jutsus mais famosos do Naruto"
+    },
+    {
+      "intent": "Kakashi_Sensei",
+      "examples": [
+        {
+          "text": "E o Kakashi ? quem é ?"
+        },
+        {
+          "text": "E o Kakashi? Quem era?"
+        },
+        {
+          "text": "Kakashi?"
+        },
+        {
+          "text": "Kakashi sensei? Quem é ?"
+        },
+        {
+          "text": "Quem é o Kakashi?"
+        },
+        {
+          "text": "Quem foi Kakashi?"
+        }
+      ],
+      "description": "fala sobre o Kakashi"
+    },
+    {
+      "intent": "Kurama",
+      "examples": [
+        {
+          "text": "Qual sua relação com kurama?"
+        },
+        {
+          "text": "Quem é a Kyuubi?"
+        },
+        {
+          "text": "Quem foi a raposa de nove caldas?"
+        },
+        {
+          "text": "Quem foi Kurama?"
+        },
+        {
+          "text": "Você é o jinchuuriki da Kyuubi?"
+        }
+      ],
+      "description": "Descreve Kuruma e a relação de Naruto com ele"
+    },
+    {
+      "intent": "Naruto_Descricao",
+      "examples": [
+        {
+          "text": "Me conte um pouco sobre você."
+        },
+        {
+          "text": "Me fale mais sobre você."
+        },
+        {
+          "text": "Naruto?"
+        },
+        {
+          "text": "O que você faz?"
+        },
+        {
+          "text": "Quem é vc?"
+        }
+      ],
+      "description": "Fala um pouco sobre Naruto."
+    },
+    {
+      "intent": "Orochimaru",
+      "examples": [
+        {
+          "text": "Orochimaru?"
+        },
+        {
+          "text": "Orochimaru é vilão?"
+        },
+        {
+          "text": "Porque o Orochimaru saiu da vila?"
+        },
+        {
+          "text": "quem é o orochimaru?"
+        },
+        {
+          "text": "Quem foi Orochimaru?"
+        }
+      ],
+      "description": "capta perguntas sobre o orochimaru"
+    },
+    {
+      "intent": "Quarta_Guerra_Ninja",
+      "examples": [
+        {
+          "text": "Como foi a grande guerra ninja?"
+        },
+        {
+          "text": "E a Grande Guerra Ninja? Como foi isso?"
+        },
+        {
+          "text": "Me conte sobre o a Quarta Grande Guerra Ninja."
+        },
+        {
+          "text": "Porque a grande guerra ninja aconteceu?"
+        },
+        {
+          "text": "Qual foi a Quarta Guerra Ninja?"
+        },
+        {
+          "text": "Qual foi a última guerra ninja?"
+        }
+      ],
+      "description": "Descreve a quarta grande guerra ninja na visão de Naruto"
+    },
+    {
+      "intent": "Sakura_Haruno",
+      "examples": [
+        {
+          "text": "e a Sakura? Quem é?"
+        },
+        {
+          "text": "E a Sakura? Quem era?"
+        },
+        {
+          "text": "Quem é a Sakura?"
+        },
+        {
+          "text": "Quem foi a Sakura?"
+        },
+        {
+          "text": "Sakura?"
+        },
+        {
+          "text": "Sakura linda?"
+        }
+      ],
+      "description": "Fala sobre a Sakura "
+    },
+    {
+      "intent": "Sasuke_Uchiha",
+      "examples": [
+        {
+          "text": "E o Sasuke? Quem é?"
+        },
+        {
+          "text": "E o Sasuke ? Quem era?"
+        },
+        {
+          "text": "Quem é Sasuke?"
+        },
+        {
+          "text": "Quem foi Sasuke?"
+        },
+        {
+          "text": "Sasuke?"
+        },
+        {
+          "text": "Sasuke kun?"
+        },
+        {
+          "text": "Sasuke? Melhor amigo?"
+        }
+      ],
+      "description": "Fala sobre Sasuke"
+    },
+    {
+      "intent": "saudacao_basica",
+      "examples": [
+        {
+          "text": "como vc esta?"
+        },
+        {
+          "text": "como vc ta ?"
+        },
+        {
+          "text": "Eai, blz?"
+        },
+        {
+          "text": "Oi, fmz?"
+        },
+        {
+          "text": "Oi, tudo bem?"
+        },
+        {
+          "text": "Olá! tudo bem? como vc está?"
+        },
+        {
+          "text": "Você esta bem?"
+        }
+      ],
+      "description": "Naruto interage rapidamente com o usuário."
+    },
+    {
+      "intent": "Time_7",
+      "examples": [
+        {
+          "text": "O que era o time 7?"
+        },
+        {
+          "text": "Quais os integrantes do seu time?"
+        },
+        {
+          "text": "Qual é seu grupo ninja?"
+        },
+        {
+          "text": "Qual é seu time?"
+        },
+        {
+          "text": "Qual seu time ninja?"
+        },
+        {
+          "text": "quem foi o time 7?"
+        },
+        {
+          "text": "Vc tinha um time?"
+        }
+      ],
+      "description": "Descreve o time 7"
+    },
+    {
+      "intent": "vila",
+      "examples": [
+        {
+          "text": "Aonde você mora?"
+        },
+        {
+          "text": "De onde você é?"
+        },
+        {
+          "text": "De qual vila você é ?"
+        },
+        {
+          "text": "Onde vc mora?"
+        },
+        {
+          "text": "Qual sua vila?"
+        }
+      ],
+      "description": "vilas"
+    },
+    {
+      "intent": "welcome",
+      "examples": [
+        {
+          "text": "Olá, sou Naruto Uzumaki, muito prazer! O que gostaria de saber, datebayou?"
+        }
+      ],
+      "description": "bem vindo"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "quarta_grande_guerra",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Akatsuki",
+          "synonyms": [
+            "Organização Secreta Akatsuki"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Forças Aliadas Shinobi",
+          "synonyms": [
+            "Forças Shinobi"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Sakura_chan",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "linda",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "muito fofinha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "testuda",
+          "synonyms": [
+            "testa grande"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Time_7",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Kakashi",
+          "synonyms": [
+            "ninja copiador de jutsus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sakura",
+          "synonyms": [
+            "namorada do sasuke"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sasuke",
+          "synonyms": [
+            "último sobrevivente do clã Uchiha"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
   "metadata": {
     "api_version": {
       "major_version": "v2",
@@ -9,18 +614,22 @@
   },
   "dialog_nodes": [
     {
-      "type": "standard",
-      "title": "Vila da Folha - Konoha",
+      "type": "frame",
+      "title": "Welcome",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Olá, sou Naruto Uzumaki, muito prazer! O que gostaria de saber, dateba-you?"
+                "text": "Olá, sou Naruto Uzumaki, muito prazer! O que gostaria de saber, datebayou?"
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/90/ed/a9/90eda98af6dc527edf49aabc88278896.gif",
+            "response_type": "image"
           }
         ]
       },
@@ -29,19 +638,19 @@
     },
     {
       "type": "standard",
-      "title": "Em outros casos",
+      "title": "Não entendi datebayou",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Eu não entendi. Você pode tentar reformular a frase."
+                "text": "Que? Acho que essa pergunta não é sobre o mundo ninja, datebayou?"
               },
               {
-                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+                "text": ""
               },
               {
-                "text": "Eu não entendi o sentido."
+                "text": ""
               }
             ],
             "response_type": "text",
@@ -51,8 +660,560 @@
       },
       "conditions": "anything_else",
       "dialog_node": "Em outros casos",
-      "previous_sibling": "Bem-vindo",
+      "previous_sibling": "node_10_1617590621611",
       "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": []
+      },
+      "parent": "Bem-vindo",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1616870853308"
+    },
+    {
+      "type": "standard",
+      "title": "Akatsuki",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "uma organização inicialmente criada por Yahiko e seus dois companheiros Konan e Nagato, e posteriormente assumida por Tobi, Obito Uchiha, que integrou o Tio Itachi, Kisame, Juzo Biwa, Deidara, Sasori, Hidan, Kasuku e até mesmo o Tio Orochimaru não ficou fora dessa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1617463063845",
+      "conditions": "#Akatsuki",
+      "dialog_node": "node_10_1617467486899",
+      "previous_sibling": "node_4_1617467474195"
+    },
+    {
+      "type": "standard",
+      "title": "sobre Sakura",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1617236030524"
+      },
+      "conditions": "#Sakura_Haruno",
+      "dialog_node": "node_10_1617569653325",
+      "previous_sibling": "node_9_1617569451296"
+    },
+    {
+      "type": "standard",
+      "title": "Jutsus Naruto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O primeiro Jutsu que eu aprendi, sei que é meio constrangedor mas, foi o Jutsu Sexy, onde me transformo numa garota sexy e sempre engano o Jiraya sensei, hehe. Depois acho que o mais importante que aprendi, e com certeza meu favorito, é o Kage Bunshin no Jutsu, onde consigo produzir várias cópias minhas por ai!!! Graças ao meu mestre, aprendi o Kuchiyose no jutsu, onde invoco o sapo-chefe gigante Gamabunta! E é claro não posso deixar de falar do meu Jutsu mais forte, o Rasengan, uma espiral de chakra, muito poderosa, que derrotei muitos inimigos!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Jutsus_Naruto",
+      "dialog_node": "node_10_1617570411566",
+      "previous_sibling": "node_5_1615918743796"
+    },
+    {
+      "type": "standard",
+      "title": "Hinata-Hyuga",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ela era do time da Kurenai sensei, durante muito tempo, desde pequena, ela sempre gostou de mim, fez tudo pra me ajudar e estar perto de mim, mas eu só fui perceber mais velho, foi muito amor S2"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://64.media.tumblr.com/tumblr_m7tg00J2NJ1rqxa7po1_500.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1617588884228",
+      "conditions": "#Hinata_chan",
+      "dialog_node": "node_10_1617589673250"
+    },
+    {
+      "type": "standard",
+      "title": "Bye_Naruto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Até mais, a vila precisa de mim!!! datebayou!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://pa1.narvii.com/6681/3c8ae00d438b922a1e7040ec89c52fd690bf8367_hq.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#bye_Naruto",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1617590621611",
+      "previous_sibling": "node_3_1617234769239"
+    },
+    {
+      "type": "standard",
+      "title": "Sakura Haruno",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sakura-chan era a kunoichi mais linda da Vila de Konoha, ela tem muito controle de chakra e por isso aprendeu ninjutsu médico, ela armazenou chakra durante 3 anos para ativar as células regeneração de hashirama."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://media1.tenor.com/images/11e1723679e8948bc2bced4297d36520/tenor.gif?itemid=8057569",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1617234769239",
+      "conditions": "#Sakura_Haruno",
+      "dialog_node": "node_1_1617236030524"
+    },
+    {
+      "type": "standard",
+      "title": "Kakashi Hatake",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kakashi era meu sensei, liderava o time 7, ele era conhecido como copiador de jutsus, já que ele recebeu o Sharingan do seu ex-companheiro de equipe, Obito Uchiha."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1617234769239",
+      "conditions": "#Kakashi_Sensei",
+      "dialog_node": "node_1_1617238246231",
+      "previous_sibling": "node_7_1617238182614"
+    },
+    {
+      "type": "standard",
+      "title": "Comentário Sakura",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nossa, ela é muito linda, gostei dela durante muito tempo, mas depois descobri meus sentimentos pela Hinata-chan S2"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1617236030524",
+      "conditions": "@Sakura_chan",
+      "dialog_node": "node_2_1617588884228"
+    },
+    {
+      "type": "standard",
+      "title": "Time 7",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ahh o time 7!!!! No time 7 éramos  eu,  o Kakashi sensei, a Sakura-chan e o meu melhor amigo Sasuke-kun!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://img.quizur.com/f/img5f7cfe36e44014.58591127.jpg?lastEdited=1602027066",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Time_7",
+      "dialog_node": "node_3_1617234769239",
+      "previous_sibling": "node_6_1621720412523"
+    },
+    {
+      "type": "standard",
+      "title": "Saudação Geral Naruto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oi, datebayou!! Estou me esforçando pra virar Hokage, tenho muitos amigos me ajudando nessa caminhada, mas posso dizer que o Time 7 me inspirou muito nesse objetivo!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#saudacao_basica",
+      "dialog_node": "node_3_1617588072612",
+      "previous_sibling": "node_5_1617587183221"
+    },
+    {
+      "type": "standard",
+      "title": "Forças Aliadas Shinobi",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As Forças Shinobi eram uma coligação entre os ninjas das aldeias dos Países do Relâmpago, Água, Terra, Vento e Fogo, e os Samurais do País do Ferro. Eles tinham o objetivo de acabar com a Akatsuki e proteger os jinchuurikis. Os 5 kages que lideraram as forças shinobi na quarta grande guerra, a  Tia Tsunade, meu sincero amigo Gaara, o Raikage mais forte do Trovão, Tio Ei, a Tia Mei, o Vô Oonuki."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1617463063845",
+      "conditions": "#Forca_Shinobi",
+      "dialog_node": "node_4_1617467474195"
+    },
+    {
+      "type": "standard",
+      "title": "Vilas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu sou de Konoha, a Vila da Folha."
+              },
+              {
+                "text": "Sou da Vila Oculta da Folha, hehe."
+              },
+              {
+                "text": "Sou de Konoha, datebayou!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#vila",
+      "dialog_node": "node_5_1615918743796",
+      "previous_sibling": "node_8_1617469124956"
+    },
+    {
+      "type": "standard",
+      "title": "Família",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu nasci orfão, meus pais são Kushina Uzumaki e Minato Uzumai, eles morreram para tentar salvar a vila, selando a kyubi."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://qph.fs.quoracdn.net/main-qimg-06d335a0726e1ce55130b46e9f8c72de.webp",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Familia",
+      "dialog_node": "node_5_1617232303417",
+      "previous_sibling": "node_5_1621651712889"
+    },
+    {
+      "type": "standard",
+      "title": "sobre Kakashi",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1617238246231"
+      },
+      "conditions": "#Kakashi_Sensei",
+      "dialog_node": "node_5_1617569656361",
+      "previous_sibling": "node_10_1617569653325"
+    },
+    {
+      "type": "standard",
+      "title": "Naruto Descrição",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sou um ninja da vila da Folha lutando pra virar Hokage, tenho muitos amigos me ajudando nessa caminhada, mas posso dizer que o Time 7 me inspirou muito nesse objetivo!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Naruto_Descricao",
+      "dialog_node": "node_5_1617587183221",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Hokage",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hokage é o líder de Konoha. Eles são geralmente reconhecidos como o mais forte na aldeia, e desempenham grande papel em ter sido escolhido para a posição. Quando eu me tornar um deles desejo proteger a vila como se todos fossem minha família! Esse é meu jeito ninja!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://thumbs.gfycat.com/NaturalMeanAustralianfreshwatercrocodile-size_restricted.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#hokage",
+      "dialog_node": "node_5_1621651712889",
+      "previous_sibling": "node_3_1617588072612"
+    },
+    {
+      "type": "standard",
+      "title": "Folha",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Konoha é a Vila da Folha, fundada pela tio Hashirama e o tio Madara."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Folha",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1617230387549",
+      "previous_sibling": "node_8_1621694726040"
+    },
+    {
+      "type": "standard",
+      "title": "sobre Hinata",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1617589673250"
+      },
+      "conditions": "#Hinata_chan",
+      "dialog_node": "node_6_1621720412523",
+      "previous_sibling": "node_5_1617569656361"
+    },
+    {
+      "type": "standard",
+      "title": "Clã Uzumaki",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sou do Clã Uzumaki, conhecidos por ter muito chakra, resistência física e são especialistas em jutsu de selamento."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Cla_Uzumaki",
+      "dialog_node": "node_7_1617231458703",
+      "previous_sibling": "node_5_1617232303417"
+    },
+    {
+      "type": "standard",
+      "title": "Sasuke Uchiha",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sasuke kun é meu melhor amigo do time 7, o considero como um irmão, ele passou por fases difíceis até dominar técnicas e jutsus com seu Mangekyou Sharingan, que só despertou depois dele poder se entender melhor com seu irmão, o tio Itachi."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/fa/b6/b7/fab6b7e28411a5046d7208d177644384.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_3_1617234769239",
+      "conditions": "#Sasuke_Uchiha",
+      "dialog_node": "node_7_1617238182614",
+      "previous_sibling": "node_1_1617236030524"
+    },
+    {
+      "type": "standard",
+      "title": "Quarta Grande Guerra Ninja",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A Quarta Grande Guerra Ninja foi um conflito entre as Forças Aliadas Shinobi e a Akatsuki. Foi uma guerra muito difícil, muitos amigos queridos se foram, dentre eles posso dizer que o meu irmãozão Neji Hyuga, que se sacrificou muito por todos, o Tio Inoichi, pai da Ino, e o Tio Shikaku, pai do meu amigo e braço direito Shikamaru."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Quarta_Guerra_Ninja",
+      "dialog_node": "node_7_1617463063845",
+      "previous_sibling": "node_7_1617572162583"
+    },
+    {
+      "type": "standard",
+      "title": "Jiraya Sensei",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jiraya sensei é o meu mestre principal de treinamento, ele me ajudou a aprimorar e desenvolver novos jutsus, como o incrível rasengan, e também ensinou o modo-sennin, fundamental nas lutas da quarta grande guerra ninja!!! O mestre Jiraya também escrevia romances, como o Livro Secreto dos Amassos, e procurava cenários pra se basear nos romances, por isso também era chamado de Ero Sennin ou Sábio Tarado, hehe."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://64.media.tumblr.com/3dbf5c02552d7b073abc5a533cbe4525/3c9c8ebd5b771d80-5f/s500x750/c6d95016cef6420a26605e68fdab99f228588619.gifv",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Jiraya_Sensei",
+      "dialog_node": "node_7_1617572162583",
+      "previous_sibling": "node_10_1617570411566"
+    },
+    {
+      "type": "standard",
+      "title": "Itachi Uchiha",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O tio Itachi foi ninja prodígio do clã Uchiha! Infelizmente por questões políticas, ele teve de assassinar seu clã inteiro, poupando apenas seu irmão, o Sasuke kun. Ele se juntou a Akatsuki, e desertou de Konoha, mas na verdade ele planejava proteger todos da vila. Ele morreu nas mãos do Sasuke, por causa dos danos do Mangekyou Sharingan, e aproveitou  pra dizer pro seu maninho o quanto ele o amava. Ele me pediu pra cuidar do Sasuke kun, e eu mantive essa promessa até o fim!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/3e/95/24/3e95240a0c41b1cfd81d96b01770b541.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Itachi_Uchiha",
+      "dialog_node": "node_7_1621693103579",
+      "previous_sibling": "node_7_1617463063845"
+    },
+    {
+      "type": "standard",
+      "title": "Kurama",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kurama, esse 9 caudas fortão, no qual eu sou seu Jinchiuuriki, e onde metade das suas energias foi selada em meu corpo pelo meu pai, é meu grande companheiro, a gente passou por diversos momentos difíceis pra chegar ao nível de confiança e amizade que temos hoje, o mesmo nível de confiança e amizade que salvou todos na grande guerra ninja!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://pa1.narvii.com/6691/acd731edfcbed1938b7b976f5f946f60ef063276_hq.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Kurama",
+      "dialog_node": "node_8_1617469124956",
+      "previous_sibling": "node_7_1617231458703"
+    },
+    {
+      "type": "standard",
+      "title": "Orochimaru",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Orochimaru  é um dos Lendários Sannin, junto com a vovó Tsunade e Jiraiya sensei. Sua principal ambição era a imortalidade. Ele fazia até experimentos antiéticos com cidadãos de Konoha , e por causa disso desertou da vila, e seguiu jornada com sentimento de vingança. Só que depois de vivenciar muitas mortes, ele percebeu suas falhas, e começou a acompanhar as escolhas e modo de vida do Sasuke kun, reaproximando-o, de alguma forma, de Konoha. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "https://i.pinimg.com/originals/bd/f8/3a/bdf83a623a55bc866c90697d7409631d.gif",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Orochimaru",
+      "dialog_node": "node_8_1621694726040",
+      "previous_sibling": "node_7_1621693103579"
+    },
+    {
+      "type": "standard",
+      "title": "Sobre Sasuke",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1617238182614"
+      },
+      "conditions": "#Sasuke_Uchiha",
+      "dialog_node": "node_9_1617569451296",
+      "previous_sibling": "node_6_1617230387549"
     }
   ],
   "counterexamples": [],
